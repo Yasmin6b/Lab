@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Our Clothing Brand</title>
+  <link rel="stylesheet" href="C:\Users\houda\Desktop\Stylesphere.project\CSS\land.css">
+</head>
+<body>
+    <div class="home-button-container">
+        <a href="index.html" class="home-button">Home</a>
+      </div>
+  <section class="hero-section" id="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Exclusive Clothing Brand</h1>
+      <p>Discover stylish, comfortable, and sustainable fashion for every occasion.</p>
+      <a href="#shop" class="cta-button">Shop Now</a>
+    </div>
+  </section>
+  <section class="about-section">
+    <div class="container">
+      <h2>About Our Brand</h2>
+      <p>Our mission is to provide high-quality, eco-friendly clothing that combines comfort and style. We believe fashion should be timeless, sustainable, and empowering.</p>
+    </div>
+  </section>
+  <section class="featured-products" id="shop">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="products">
+        <div class="product" onclick="openModal(1)">
+          <img src="C:\Users\houda\Desktop\Stylesphere.project\Slogan Graphic Drop Shoulder Hoodie PURSUE YOUR OBJECT.jpg" alt="Product 1">
+          <h3>Stylish Hoodie</h3>
+          <p>5000 DA</p>
+          <a href="shop.html" class="shop-link">Shop Now</a>
+        </div>
+        <div class="product" onclick="openModal(2)">
+          <img src="C:\Users\houda\Desktop\Stylesphere.project\Fine-Knit Mock Turtleneck Sweater.jpg" alt="Product 2">
+          <h3>Cozy Sweater</h3>
+          <p>4590 DA</p>
+          <a href="shop.html" class="shop-link">Shop Now</a>
+        </div>
+        <div class="product" onclick="openModal(3)">
+          <img src="C:\Users\houda\Desktop\Stylesphere.project\Bomber Jacket.jpg" alt="Product 3">
+          <h3>Classic Jacket</h3>
+          <p>7950 DA</p>
+          <a href="shop.html" class="shop-link">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <div id="modal-details"></div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Your Clothing Brand. All rights reserved.</p>
+    </div>
+  </footer>
+  <button id="scrollToTopBtn" class="scroll-to-top-btn" onclick="scrollToTop()">↑</button>
+
+  <script src="C:\Users\houda\Desktop\Stylesphere.project\JS\land.js"></script>
+</body>
+</html>
